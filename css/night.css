@@ -1,0 +1,94 @@
+.container-fluid
+{
+max-width: 1600px;
+}
+
+.container-wapper
+ {
+ width:100%;
+ background:#c0c0c0;
+ }
+
+ #menu
+{
+height:15%;
+width:100%;
+float:left;
+border-bottom: 1px solid #f15556;
+position:fixed;
+top:0;
+z-index: 5000;
+background: #f9f9f9;
+}
+
+#logo
+{
+float:left;
+width:10%;
+}
+
+#logotext
+{
+float:left;
+width:20%;
+height:100%;
+font-family:Century Gothic;
+font-size: 35px;
+display:flex;              /* establish flex container */
+flex-direction:column;     /* stack flex items vertically */
+justify-content:center;    /* center items vertically */
+}
+
+#menulist
+{
+float:left;
+width:14%;
+height:100%;
+display:flex;              /* establish flex container */
+flex-direction:column;     /* stack flex items vertically */
+justify-content:center;
+text-align:center;
+font-size: 20px;
+font-family:Century Gothic;
+}
+
+#menulist > a:hover 
+{
+color:white ;
+background-color:#e35354;
+height:100%;
+display:flex;              /* establish flex container */
+flex-direction:column;     /* stack flex items vertically */
+justify-content:center;
+}
+#menulist > a:link,a:visited
+{
+color: black;
+text-decoration: none !important;
+}
+#intro
+{
+font-size:20px;
+margin-left:2%;
+margin-top:12%;
+}
+#text
+{
+font-size:25px;
+margin-left:2%;
+margin-top:2%;
+color:#e35354;
+}
+#end
+{
+font-size:20px;
+margin-left:2%;
+}
+#footer
+{
+margin-top:10px;
+width:100%;
+height:15%;
+background-color:#DB7093;
+float:left;
+}
